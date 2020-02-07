@@ -12,3 +12,8 @@ print('Ich sage "I\'ve finished my homework".')
 print("Ich sage \'I've finished my homework\'.")
 # or
 print("""Ich sage "I've finished my homework".""")
+
+# escape backslash
+print("C:\\ThienNguyen\\note.txt")
+# or
+print(r"C:\ThienNguyen\note.txt")
