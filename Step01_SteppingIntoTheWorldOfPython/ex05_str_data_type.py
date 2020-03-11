@@ -43,3 +43,7 @@ print(letters[16:13:-1])
 print(letters[4::-1])
 # Slice the string to produce last 8 character, in reverse order
 print(letters[-1:-9:-1])
+
+data = "1:A, 2:B, 3:C, 4:D, 5:E, 6:F, 7:G, 8:H"
+
+print('1' in data)
