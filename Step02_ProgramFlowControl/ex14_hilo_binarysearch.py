@@ -15,10 +15,13 @@ while True:
     elif high_low == "l":
         high = guess - 1
     elif high_low == "c":
-        print("I got it in {} guesses!".format(guesses))
+        print("I got it in {} gues ses!".format(guesses))
         break
     else:
         print("Please enter h, l or c")
 
 #   guesses = guesses + 1
     guesses += 1
+# update else
+print("You thought of the number: ", low)
+print("I got it in {} guesses".format(guesses))
